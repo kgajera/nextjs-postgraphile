@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-postgraphile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "graphql": "^15.8.0",
+    "next": "12.1.5",
+    "pg": "^8.7.3",
+    "postgraphile": "^4.12.9",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.6.2",
+    "@graphql-codegen/typescript": "2.4.8",
+    "@graphql-codegen/typescript-operations": "^2.3.5",
+    "@graphql-codegen/typescript-react-apollo": "3.2.11",
+    "@types/node": "17.0.24",
+    "@types/react": "18.0.5",
+    "@types/react-dom": "18.0.1",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5",
+    "typescript": "4.6.3"
+  }
+}
